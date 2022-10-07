@@ -1,0 +1,102 @@
+.header-banner-2{
+    width: 100%;
+    padding: 10px;
+    height: 160px;
+    box-sizing: border-box;
+    background-color: #2F1D1A;
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+}
+
+.title-2{
+    text-align: center;
+}
+
+.download-section{
+    height: 70px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-btn{
+    background-color: #98C2C1;
+    padding: 10px;
+    width: 130px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #2F1D1A;
+    font-weight: bold;
+}
+
+.education-section{
+    background-color: #C9D8D1;
+    width: 100%;
+    box-sizing: border-box;
+    height: 200px;
+    padding: 20px 100px;
+}
+
+.education-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-education, .right-education{
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #2F1D1A;
+    height: 100%;
+    width: 50%;
+    font-size: 1.3em;
+}
+
+.left-education > div{
+    margin: 1px 0;
+}
+
+.education-title{
+    font-size: 1.8em;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.education-graduation-year{
+    text-align: right;
+    margin: 1px 0;
+}
+
+.skills-section{
+    background-color: #2F1D1A;
+    height: 300px;
+    width: 100%;
+    padding: 40px 100px;
+    color: #EAE7E2;
+    box-sizing: border-box;
+}
+
+.skills-title{
+    font-size: 1.8em;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.section-wrapper{
+    padding: 30px 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.experience-wrapper, .projects-wrapper{
+    width: 100%;
+    
+}
+
+.section-name{
+    font-size: 1.8em;
+    width: 100%;
+}

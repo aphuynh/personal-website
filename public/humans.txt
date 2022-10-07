@@ -1,0 +1,16 @@
+                            
+/* TEAM */
+      
+    UX/UI designer: Christine Trinh
+	LinkedIn: linkedin.com/in/christinetrinh-design
+
+	Web developer: Angelica Huynh
+	LinkedIn: linkedin.com/in/angelica-huynh
+						
+							
+/* SITE */
+
+	Last update: ---
+	Language: English
+	Doctype: HTML
+	IDE: Visual Studio Code

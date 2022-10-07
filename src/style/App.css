@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Itim');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.app-page{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    
+    overscroll-behavior: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #EAE7E2;
+}
+
+.content{
+    width: 100%;
+    overflow-y: overlay;
+    overflow-x: hidden;
+    min-height: calc(100vh - 50px);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+::-webkit-scrollbar-thumb {
+background: #98C2C1;
+border-radius: 1vw;
+}
+
+::-webkit-scrollbar-track {
+background: rgba(0, 0, 0, 0);
+}
