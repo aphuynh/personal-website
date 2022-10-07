@@ -1,6 +1,5 @@
 import React from 'react';
 import "../style/Resume.css";
-import pdf from "../AngelicaHuynh-Resume.pdf"
 
 const Resume = () => {
     return ( <div className="resume-page page">
@@ -16,7 +15,7 @@ const Resume = () => {
         </div>
 
         <div className='download-section'>
-            <a href={pdf} download="AngelicaHuynh-Resume.pdf" className='download-btn'>Download PDF</a>
+            <a className='download-btn'>Download PDF</a>
         </div>
 
         <div className='education-section'>
