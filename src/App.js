@@ -11,23 +11,23 @@ import "./style/App.css";
 const App = () => {
   const projectsArray = [
     {
-      projectName: "Project 1", 
+      projectName: "FabFlix", 
       contributors: "Angelica Huynh",
-      category: "Personal Project",
+      category: "School Project",
+      description: "Fabflix is a web-based ecommerce system where users are able to browse and purchase movies.\n This project gave experience in all different areas of development, including frontend, backend, databases, testing, and design."
+    },
+
+    {
+      projectName: "UCI Search Engine", 
+      contributors: "Angelica Huynh",
+      category: "School Project",
       description: "nafkjnfkjsadnfkjsndkfjsndkfjnksdfmksadmfkm"
     },
 
     {
-      projectName: "Project 2", 
+      projectName: "Blobs Vs. Toys", 
       contributors: "Angelica Huynh",
-      category: "Personal Project",
-      description: "nafkjnfkjsadnfkjsndkfjsndkfjnksdfmksadmfkm"
-    },
-
-    {
-      projectName: "Project 3", 
-      contributors: "Angelica Huynh",
-      category: "Personal Project",
+      category: "School Project",
       description: "nafkjnfkjsadnfkjsndkfjsndkfjnksdfmksadmfkm"
     }
 
@@ -50,9 +50,8 @@ const App = () => {
       <Navbar/>
       <div className='content'>
         <Routes>
-            <Route path="/projects" element={<Projects/>}/>
             <Route path="/" element={<Home projects={projectsArray} skills={skillsArray}/>}/>
-            <Route path="/resume" element={<Resume/>}/>
+            <Route path="/projects" element={<Projects/>}/>
         </Routes>
       </div>
       

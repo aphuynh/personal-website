@@ -23,7 +23,9 @@ const Home = (props) => {
             </div>
             <div className='about-banner'>
                 <div className="description">
-                    Hello! I'm Angelica, an aspiring software and database engineer based in California. I'd love to help you code your ideas to life! 
+                    Hello! I am a recent graduate from University of California, Irvine, with a Bachelor of Science in Computer Science. I am currently working as a Full Stack Developer for Sidescrawl.
+
+                    
                 </div>
             </div>
         </div>
@@ -35,7 +37,7 @@ const Home = (props) => {
                 </div>
 
                 <div className="project-banner-description">
-                    Raccoons are in the family Caniformia, and are related to the mustelids. The raccoon has short legs, pointed nose, small ears, grayish-brown fur, and a bushy tail. The raccoon's most distinctive features are its multi-purpose front paws, its facial 'mask', and its striped tail.
+                    Below area few of my projects that have taught and helped me a lot for my career.
                 </div>
                 
             </div>

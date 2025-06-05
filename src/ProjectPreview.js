@@ -12,7 +12,6 @@ const ProjectPreview = (project) => {
             <div className='project-preview-image'></div>
 
             <div className='project-preview-description'>{project.project.description}</div>
-            <NavLink className="project-preview-link" to="/projects">OPEN</NavLink>
         </div>
     );
 }

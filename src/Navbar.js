@@ -11,10 +11,8 @@ const Navbar = () => {
     return ( 
         <>
             <nav className='nav-bar'>
-                    <NavLink className={getNavClass} to="/projects">Projects</NavLink>
                     <NavLink className={getNavClass} to="/" end>Home</NavLink>
-                    <NavLink className={getNavClass} to="/resume">Resume</NavLink>
-                
+                    <NavLink className={getNavClass} to="/projects" end>Projects</NavLink>
             </nav>
         </>
     );
